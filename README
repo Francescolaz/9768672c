@@ -1,0 +1,25 @@
+---
+title: "README"
+author: "Francesco Lazzara"
+---
+## Mid-term Project in Coding for Data Science academic year 2019/2020 
+
+The package contains data-set, statistical analysis of the sales of Tesla and built-in functions for deeper examination. 
+
+```
+Install the package by running the command:
+> devtools::install_github("unimi-dse/9768672c")
+```
+
+```
+Enable the functions of the package by running the command:
+> require(teslasales)
+```
+
+### Dependent R-packages
+
+* zoo: time series analysis
+* na.tools: faster data analysis commands
+* RColorBrewer: color functions for data visualization 
+* lubridate: quarterly data adjustment for time series 
+* plotly: basic function for data visualization (plot graph) 
